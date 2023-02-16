@@ -1,0 +1,44 @@
+main {
+     margin: 40px 130px;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 490px) {
+
+main {
+    margin: 17px;
+}
+
+.title{
+    width: 68%;
+
+}
+
+}
+
+@media (max-width: 1024px) {
+
+    main {
+        margin: 16px;
+    }
+
+    .title{
+        width: 47%;
+
+    }
+
+}
+
+@media (min-width: 2500px) {
+
+    .title{
+        font-size: 64px;
+    }
+
+}
+
